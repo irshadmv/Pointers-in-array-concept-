@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main() {
+int*ptr;
+int arr[]={10,15,20,25,30};
+ ptr=&arr[0];
+ printf("%d\n",arr[0]);
+ printf("%d\n",*ptr);
+printf("%d\n",*(ptr+1));
+ printf("%d\n",arr[1]);
+ printf("%d\n ",ptr[1]);
+ printf("%d\n",ptr[2]);
+ printf("%u\n",ptr);
+ printf("%u\n",arr);
+ printf("%u\n",&arr[0]);
+ 
+
+    return 0;
+}
